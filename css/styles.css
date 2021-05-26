@@ -1,0 +1,30 @@
+body{
+}
+
+main {
+    display: inline-block;
+    width: 800px;
+    margin-left: calc((100% - 800px)/2);
+    margin-top: 80px;
+}
+
+main > div:first-of-type {
+    background-color: lightblue;
+    float: left;
+    width: 40%;
+    height: 300px;
+    margin-top: 50px;
+}
+
+main > div:last-child {
+    background-color: lightgreen;
+    float: left;
+    width: 60%;
+    height: 400px;
+}
+
+/* --- TEMP ------------ */
+div {
+    text-align: center;
+}
+/* --------------------- */
