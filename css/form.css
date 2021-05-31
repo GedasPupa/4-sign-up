@@ -1,0 +1,18 @@
+.form {
+    display: inline-block;
+    width: 100%;
+}
+.row {
+    display: inline-block;
+    width: 100%;
+}
+.form  input {
+    display: inline-block;
+    width: 100%;
+}
+.close {
+    float: right;
+}
+.row + .row {
+    padding-top: 40px;
+}
