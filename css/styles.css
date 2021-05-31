@@ -1,3 +1,12 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 body{
 }
 
@@ -8,23 +17,23 @@ main {
     margin-top: 80px;
 }
 
-main > div:first-of-type {
+.left-side {
     background-color: lightblue;
     float: left;
     width: 40%;
-    height: 300px;
     margin-top: 50px;
+    padding: 30px;
 }
 
-main > div:last-child {
+.right-side {
+    display: inline-block;
     background-color: lightgreen;
-    float: left;
     width: 60%;
-    height: 400px;
+    padding: 50px;
 }
 
 /* --- TEMP ------------ */
-div {
+/* div {
     text-align: center;
-}
+} */
 /* --------------------- */
