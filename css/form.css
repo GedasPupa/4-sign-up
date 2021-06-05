@@ -1,10 +1,13 @@
 .form {
     display: inline-block;
     width: 100%;
+    border: 2px solid red;
+    /* margin-top: 180px; */
 }
 .row {
     display: inline-block;
     width: 100%;
+    /* border: 3px solid red; */
 }
 .form  input {
     display: inline-block;
@@ -13,6 +16,17 @@
 .close {
     float: right;
 }
-.row + .row {
-    padding-top: 40px;
+.row + .row { /* space between!!!!  */
+    padding-top: 40px; 
+}
+.close {
+    position: absolute;
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+    top: 0;
+    right: 0;
+    text-align: center;
+    line-height: 45px;
+    /* text-transform: uppercase; */
 }
