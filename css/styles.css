@@ -8,25 +8,61 @@ body * {
 }
 
 body{
+    /* position: relative; */
+    height: 100vh;
+    border: 2px solid red;
 }
 
 main {
+    position: absolute;
     display: inline-block;
     width: 800px;
     margin-left: calc((100% - 800px)/2);
-    margin-top: 80px;
+    margin-top: 40px;
+    border: 1px solid green;
+    /* right: 0; */
+    /* bottom: 0; */
+    
 }
 
 .left-side {
-    background-color: lightblue;
+    position: absolute;
+    /* background-color: lightblue; */
     float: left;
+    color: #FFF;
     width: 40%;
-    margin-top: 50px;
-    padding: 30px;
+    padding: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    top: 0;
+    bottom: 0;
+    background: url("../img/pic.png") center center no-repeat;
+    background-size: cover;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
+.main-header {
+    font-weight: 100;
+    font-size: 3rem;
+}
+
+.bottom-links {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 20px;
+    font-size: 0.8rem;
+}
+.link {
+    color: #FFF;
+}
 .right-side {
-    display: inline-block;
+    /* display: inline-block; */
+    /* position: absolute; */
+    /* right: 0; */
+    float: right;
     background-color: lightgreen;
     width: 60%;
     padding: 50px;
