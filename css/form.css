@@ -1,32 +1,76 @@
 .form {
-    display: inline-block;
     width: 100%;
-    border: 2px solid red;
-    /* margin-top: 180px; */
+    background-color: #FFF;
+    float: right;
+    width: 60%;
+    padding: 50px 70px;  
 }
+
 .row {
     display: inline-block;
     width: 100%;
-    /* border: 3px solid red; */
 }
+
+label {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    color: #B6B6B6;
+}
+
 .form  input {
     display: inline-block;
     width: 100%;
+    border: none;
+    border-bottom: 2px solid #f8f8f8;
+    font-size: 15px;
+    line-height: 23px;
+    font-weight: bold;
+    color: #303030;
+    font-style: italic;
+
 }
-.close {
-    float: right;
-}
-.row + .row { /* space between!!!!  */
+
+.row + .row { /* space between/gap !!!!  */
     padding-top: 40px; 
 }
+
 .close {
     position: absolute;
-    border: 1px solid black;
     height: 50px;
     width: 50px;
     top: 0;
     right: 0;
     text-align: center;
     line-height: 45px;
-    /* text-transform: uppercase; */
+    text-transform: uppercase;
+    color: #B6B6B6;
+
+}
+
+.button {
+    padding: 7px 50px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFF;
+    background: rgb(0,101,219);
+    background: linear-gradient(45deg, rgba(0,101,219,1) 0%, rgba(37,73,213,1) 100%);
+    border: none;
+    border-radius: 17px;
+}
+
+.button:hover, .close:hover {
+    cursor: pointer;
+}
+
+.last {
+    display: flex;
+    gap: 20px;
+    line-height: 34px;
+}
+
+.sign-in {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
 }
